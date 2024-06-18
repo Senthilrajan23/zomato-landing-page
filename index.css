@@ -12,7 +12,7 @@ background-position: center;
 }
 .nav_bar{
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: space-between;
     min-height: 50px;
     padding: 15px 50px;
@@ -32,7 +32,7 @@ background-position: center;
     border: 1px solid white;
     height:30px;
     width:30px;
-    border-radius: 20%;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,7 +72,7 @@ background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:80px;
+    gap:10px;
     width: 50%;
     border-radius: 10px;
 
@@ -84,11 +84,25 @@ outline: none;
 }
 .input_location{
     width:35%;
-    border: 2px solid grey;
+    border-right: 2px solid rgb(128, 128, 128, 0.5);
     
 
 
 }
 .input_search{
     width:65%;
+}
+.we_offer_phase{
+    margin: 3rem auto;
+    width: 90%
+
+}
+.we_offer_cards{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:0.5rem;
+    align-items: center;
+    justify-content: center;
 }
