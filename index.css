@@ -6,7 +6,7 @@
 }
 .Hero_section{
 background: url(images/heroSectionBackground.png);
-min-height: 60vh;
+min-height: 65vh;
 background-size: cover; 
 background-position: center;
 }
@@ -63,11 +63,11 @@ background-position: center;
     gap:30px;
 }
 .hero_section_logo{
-    width:200px;
+    width:250px;
     
 }
 .hero_section_input_container{
-    padding: 10px;
+    padding: 13px;
     background-color: white;
     display: flex;
     align-items: center;
@@ -92,17 +92,80 @@ outline: none;
 .input_search{
     width:65%;
 }
-.we_offer_phase{
-    margin: 3rem auto;
-    width: 90%
 
-}
-.we_offer_cards{
-    
+.we_offer_phase {
+    margin: 3rem auto;
+    width: 90%;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    gap:0.5rem;
+    gap: 0.5rem;
     align-items: center;
     justify-content: center;
+}
+
+.we_offer_cards{
+    margin: 0 6px;
+    width: 30%;
+    border-radius: 10px;
+    border: 0.5px solid rgb(232, 232, 232) ;
+    overflow:hidden;
+    transition: all 0.3s ease;
+}
+
+.we_offer_cards:hover{
+transform: scale(1.06);
+cursor: pointer;
+}
+.we_offer_cards img{
+    width: 100%;
+    height: 180px;
+    /*for clear img */
+    object-fit: cover;
+    object-position: center;
+}
+.we_offer_description{
+    padding:10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.we_offer_description h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+.we_offer_description p{
+    color: rgb(77, 77, 77) ;
+}
+.collection{
+    margin: 5rem 7rem;
+}
+.collection h1{
+    font-weight: 405;
+    font-size: 33px;
+
+}
+.sub_heading_container{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:1rem;
+}
+
+.sub_heading_container span:nth-child(2){
+    color: rgb(255,126,139);
+    cursor: pointer;
+    
+}
+.sub_heading_container span:nth-child(1){
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.collection_card_container{
+    
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+      
 }
